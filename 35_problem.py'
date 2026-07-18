@@ -1,0 +1,4 @@
+# Read csv file and access particular Row
+import pandas as pd 
+df = pd.read_csv("Titanic-Dataset.csv",nrows=4)
+print(df)
